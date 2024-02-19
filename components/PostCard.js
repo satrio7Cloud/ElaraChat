@@ -14,7 +14,7 @@ const PostCard = ({ posts, myPostScreen }) => {
 
   // handle delete prompt
   const handleDeletePropmpt = (id) => {
-    Alert.alert("Attention!", "Are You Sure Want to Delete this Post?", [
+    Alert.alert("Perhatian!", "Are You Sure Want to Delete this Post?", [
       {
         text: "Cancle",
         onPress: () => {
